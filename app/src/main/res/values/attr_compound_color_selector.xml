@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="colors" format="reference"/>
+    <declare-styleable name="CompoundColorSelector">
+        <attr name="colors"/>
+    </declare-styleable>
+
+    <declare-styleable name="ExtendViewColorSelector">
+        <attr name="colors"/>
+    </declare-styleable>
+    <declare-styleable name="FullCustomView">
+        <attr name="colors"/>
+        <attr name="dialSize" format="dimension"/>
+        <attr name="tickMarkRadius" format="dimension"/>
+        <attr name="scaleToFit" format="boolean"/>
+    </declare-styleable>
+</resources>
